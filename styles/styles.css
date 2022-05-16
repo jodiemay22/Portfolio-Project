@@ -1,6 +1,37 @@
-h1 {
-  font-family: "Merriweather", serif;
+:root {
+  --branding-font: "Merriweather", serif;
+  --secondary-font: "Bitter", serif;
+  --primary-colour: #f9ecec;
+  --secondary-colour: #f0d9da;
 }
-p {
-  font-family: "Bitter", serif;
+
+h1 {
+  font-family: var(--branding-font);
+  font-size: 55px;
+}
+h2,
+h3 {
+  font-family: var(--secondary-font);
+}
+h3 {
+  font-size: 20px;
+}
+img {
+  width: 35px;
+}
+
+.homepage-hero {
+  background-color: var(--primary-colour);
+  text-align: center;
+  padding-top: 100px;
+}
+
+.skills-logo {
+  background-color: var(--secondary-colour);
+}
+.contact-button {
+  background-color: var(--primary-colour);
+}
+.contact-me {
+  background-color: var(--secondary-colour);
 }
