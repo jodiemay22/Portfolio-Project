@@ -3,6 +3,7 @@
   --secondary-font: "Bitter", serif;
   --primary-colour: #f9ecec;
   --secondary-colour: #f0d9da;
+  --tertiary-colour: #ecf2f9;
 }
 
 h1 {
@@ -32,16 +33,17 @@ h4 {
 .skills-logo {
   width: 35px;
 }
-.contact-button {
-  background-color: var(--primary-colour);
-}
-.contact-me {
-  background-color: var(--secondary-colour);
-}
 
 .personal-profile {
-  background-color: var(--secondary-colour);
+  background-color: var(--primary-colour);
 }
 .profile-picture {
   width: 250px;
+}
+
+.project-img {
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 0;
 }
