@@ -16,8 +16,8 @@ h3 {
 h3 {
   font-size: 20px;
 }
-img {
-  width: 35px;
+h4 {
+  font-family: var(--branding-font);
 }
 
 .homepage-hero {
@@ -26,12 +26,22 @@ img {
   padding-top: 100px;
 }
 
-.skills-logo {
+.skills-logo-element {
   background-color: var(--secondary-colour);
+}
+.skills-logo {
+  width: 35px;
 }
 .contact-button {
   background-color: var(--primary-colour);
 }
 .contact-me {
   background-color: var(--secondary-colour);
+}
+
+.personal-profile {
+  background-color: var(--secondary-colour);
+}
+.profile-picture {
+  width: 250px;
 }
