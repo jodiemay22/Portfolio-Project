@@ -5,6 +5,10 @@
   --secondary-colour: #f0d9da;
   --tertiary-colour: #ecf2f9;
 }
+body {
+  background-color: var(--primary-colour);
+  text-align: center;
+}
 
 h1 {
   font-family: var(--branding-font);
@@ -28,7 +32,6 @@ hr {
 }
 
 .homepage-hero {
-  background-color: var(--primary-colour);
   text-align: center;
   padding-top: 100px;
 }
@@ -40,17 +43,13 @@ hr {
   width: 35px;
 }
 
-.personal-profile {
-  background-color: var(--primary-colour);
-}
 .personal-profile h4 {
   text-decoration: underline;
 }
-.personal-profile p {
-  text-align: left;
-}
+
 .profile-picture {
   width: 250px;
+  display: block;
 }
 .my-work-element h4 {
   text-decoration: underline;
