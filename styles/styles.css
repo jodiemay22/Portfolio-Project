@@ -43,12 +43,26 @@ hr {
 .personal-profile {
   background-color: var(--primary-colour);
 }
+.personal-profile h4 {
+  text-decoration: underline;
+}
+.personal-profile p {
+  text-align: left;
+}
 .profile-picture {
   width: 250px;
 }
+.my-work-element h4 {
+  text-decoration: underline;
+}
+.my-work-element button {
+  background-color: var(--tertiary-colour);
+  border-color: #c8d9eb;
+  border-width: 3px;
+}
 
 .project-img {
-  width: 350px;
+  width: 200px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   padding: 0;
