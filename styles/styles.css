@@ -1,23 +1,22 @@
 :root {
-  --branding-font: "Merriweather", serif;
-  --secondary-font: "Bitter", serif;
+  --branding-font: "Rubik", sans-serif;
   --primary-colour: #f9ecec;
   --secondary-colour: #f0d9da;
   --tertiary-colour: #ecf2f9;
 }
 body {
-  background-color: var(--primary-colour);
+  background-color: white;
   text-align: center;
 }
 
 h1 {
   font-family: var(--branding-font);
-  font-size: 55px;
+  font-size: 12px;
 }
 h2,
 h3,
 p {
-  font-family: var(--secondary-font);
+  font-family: var(--branding-font);
 }
 h3 {
   font-size: 20px;
@@ -31,19 +30,15 @@ hr {
   opacity: 100%;
 }
 
-.homepage-hero {
-  text-align: center;
-  padding-top: 100px;
+.home-link {
+  font-size: 25px;
 }
 
-.skills-logo-element {
-  background-color: var(--secondary-colour);
-}
 .skills-logo {
   width: 35px;
 }
 
-.personal-profile h4 {
+.homepage-hero h4 {
   text-decoration: underline;
 }
 @media (max-width: 600px) {
@@ -58,7 +53,7 @@ hr {
     font-size: 17px;
   }
 
-  .personal-profile p {
+  .homepage-hero p {
     font-size: 14px;
   }
 }
