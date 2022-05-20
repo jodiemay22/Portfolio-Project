@@ -23,130 +23,102 @@
     <link rel="stylesheet" href="/styles/styles.css" />
     <title>Jodie Lancaster | Front End Developer</title>
   </head>
+
   <body>
-    <div class="navigation-element">
-      <ul class="navbar nav">
-        <div class="d-flex justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link about-me-link" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link home-link" href="#">
-              <h1>Jodie Lancaster</h1>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link portfolio-link" href="#">Portfolio</a>
-          </li>
+    <div class="homepage-hero m-5 container">
+      <div class="row gx-4">
+        <div class="col">
+          <img src="/images/profile-picture.jpg" alt="Jodie Lancaster" />
         </div>
-        <div class="d-flex justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href=""
-              ><i class="fa-brands fa-linkedin linkedin-icon"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">
-              <i class="fa-solid fa-square-envelope email-icon"></i>
-            </a>
-          </li>
+        <div class="summary-container col">
+          <div class="p-3">
+            <h4>Front-End Developer</h4>
+            <p>
+              After a successful and fufilling time working in the Social Care
+              Sector I recently embarked on a new journey/career opportunity.
+              <br />
+              I have enjoyed adding to my skillset and exploring new
+              capabilities through learning to code.
+            </p>
+          </div>
         </div>
-      </ul>
+      </div>
     </div>
 
-    <div class="homepage-hero m-4">
-      <div
-        class="d-flex flex-column flex-md-row justify-content-around align-items-center"
-      >
-        <div class="description">
-          <h4>A New Challenge</h4>
-          <p class="px-5">
-            After a successful and fufilling time working in the Social Care
-            Sector I recently embarked on a new journey/career opportunity.
-            <br />
-            I have enjoyed adding to my skillset and exploring new capabilities
-            through learning to code.
-          </p>
-        </div>
-
+    <div class="skills-element">
+      <div class="skills-logo-element d-flex justify-content-evenly pt-2 pb-2">
         <img
-          src="/images/profile-picture.jpg"
-          alt="Jodie Lancaster"
-          class="profile-picture"
+          src="/images/html.png"
+          alt="html logo"
+          class="img-fluid skills-logo"
+        />
+        <img
+          src="/images/css3.png"
+          alt="css logo"
+          class="img-fluid skills-logo"
+        />
+        <img
+          src="/images/javascript.png"
+          alt="js logo"
+          class="img-fluid skills-logo"
+        />
+        <img
+          src="/images/api.png"
+          alt="api logo"
+          class="img-fluid skills-logo"
+        />
+        <img
+          src="/images/bootstrap.png"
+          alt="boostrap logo"
+          class="img-fluid skills-logo"
+        />
+        <img
+          src="/images/github.png"
+          alt="github logo"
+          class="img-fluid skills-logo"
         />
       </div>
-      <div class="skills-element">
-        <div
-          class="skills-logo-element d-flex justify-content-evenly pt-2 pb-2"
-        >
-          <img
-            src="/images/html.png"
-            alt="html logo"
-            class="img-fluid skills-logo"
-          />
-          <img
-            src="/images/css3.png"
-            alt="css logo"
-            class="img-fluid skills-logo"
-          />
-          <img
-            src="/images/javascript.png"
-            alt="js logo"
-            class="img-fluid skills-logo"
-          />
-          <img
-            src="/images/api.png"
-            alt="api logo"
-            class="img-fluid skills-logo"
-          />
-          <img
-            src="/images/bootstrap.png"
-            alt="boostrap logo"
-            class="img-fluid skills-logo"
-          />
-          <img
-            src="/images/github.png"
-            alt="github logo"
-            class="img-fluid skills-logo"
-          />
-        </div>
-      </div>
     </div>
-    <hr />
-    <div class="container-fluid my-work-element">
-      <h4>My Work So Far</h4>
+
+    <div class="container-fluid my-work-element m-5">
+      <h4 class="pb-5">Portfolio</h4>
       <div
-        class="d-flex justify-content-evenly flex-column flex-md-row align-items-center pt-4 pb-4"
+        class="d-flex justify-content-evenly flex-column flex-md-row align-items-center"
       >
-        <div class="project-img m-2">
-          <img
-            src="/images/landing-page-img.png"
-            alt="First Project by Jodie"
-            class="img-fluid"
-          />
+        <div class="project-one">
+          <div class="project-img">
+            <img
+              src="/images/landing-page-img.png"
+              alt="First Project by Jodie"
+              class="img-fluid"
+            />
+          </div>
+          <h5 class="m-2">Landing Page</h5>
         </div>
-        <div class="project-img m-2">
-          <img
-            src="/images/weather-app-img.png"
-            alt="Weather App by Jodie"
-            class="img-fluid"
-          />
+        <div class="project-two">
+          <div class="project-img">
+            <img
+              src="/images/weather-app-img.png"
+              alt="Weather App by Jodie"
+              class="img-fluid"
+            />
+          </div>
+          <h5 class="m-2">Weather App</h5>
         </div>
       </div>
-      <div class="d-flex justify-content-evenly">
+      <div class="d-flex justify-content-evenly m-4">
         <button class="btn btn-light">Learn More</button>
       </div>
     </div>
-    <hr />
-    <footer></footer>
-    <hr />
-    <span class="github-code-link">
-      <a
-        href="https://github.com/jodiemay22/Portfolio-Project/blob/main/index.html"
-        >Open Source Code</a
+    <footer class="p-4">
+      <span class="github-code-link">
+        <a
+          href="https://github.com/jodiemay22/Portfolio-Project/blob/main/index.html"
+          >Open Source Code</a
+        >
+        By Jodie Lancaster</span
       >
-      By Jodie Lancaster</span
-    >
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

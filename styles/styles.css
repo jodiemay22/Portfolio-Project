@@ -24,36 +24,22 @@ h3 {
 h4 {
   font-family: var(--branding-font);
 }
-hr {
-  background-color: var(--secondary-colour);
-  width: 100%;
-  opacity: 100%;
+
+.homepage-hero img,
+.summary-container {
+  width: 300px;
 }
-.navigation-element {
+.summary-container {
+  background-color: var(--primary-colour);
+  height: 300px;
+}
+.skills-element {
   background-color: var(--primary-colour);
 }
-
-.home-link,
-.about-me-link,
-.portfolio-link {
-  color: black;
-}
-
-.home-link {
-  font-size: 25px;
-}
-
 .skills-logo {
   width: 35px;
 }
 
-.homepage-hero h4 {
-  text-decoration: underline;
-}
-.profile-picture {
-  width: 250px;
-  display: block;
-}
 .my-work-element h4 {
   text-decoration: underline;
 }
@@ -64,11 +50,14 @@ hr {
 }
 
 .project-img {
-  width: 200px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 300px;
   padding: 0;
+  box-shadow: -16px -12px 0px 0px #f0d9da;
 }
+footer {
+  background-color: var(--primary-colour);
+}
+
 .email-icon {
   font-size: 29px;
 }
