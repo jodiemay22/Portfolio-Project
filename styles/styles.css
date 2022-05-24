@@ -1,8 +1,16 @@
 :root {
   --branding-font: "Rubik", sans-serif;
-  --primary-colour: #f9ecec;
-  --secondary-colour: #f0d9da;
-  --tertiary-colour: #ecf2f9;
+  --primary-colour: #f5e4da;
+  --secondary-colour: #f3d6d6;
+  --tertiary-colour: #f2d7d3;
+}
+@media (max-width: 600px) {
+  .summary-container h4 {
+    font-size: 17px;
+  }
+  .summary-container p {
+    font-size: 14px;
+  }
 }
 body {
   background-color: white;
@@ -58,9 +66,20 @@ footer {
   background-color: var(--primary-colour);
 }
 
-.email-icon {
-  font-size: 29px;
+.qualifications,
+.experience {
+  background-color: var(--secondary-colour);
 }
-.linkedin-icon {
-  font-size: 27px;
+
+.linkedin-logo {
+  width: 60px;
+}
+
+.html-logo,
+.css-logo,
+.js-logo,
+.api-logo,
+.bootstrap-logo,
+.github.logo {
+  width: 25px;
 }
