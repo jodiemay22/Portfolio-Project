@@ -93,7 +93,7 @@ footer {
 }
 
 .about-skills-content {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .html-logo,
@@ -102,6 +102,35 @@ footer {
 .api-logo,
 .bootstrap-logo,
 .github-logo {
-  width: 40px;
-  padding: 2px;
+  width: 50px;
+  padding: 4px;
+}
+
+.know-more-element {
+  background-color: var(--secondary-colour);
+  padding-top: 40px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.know-more-element h3 {
+  text-align: left;
+  font-size: 25px;
+}
+
+.know-more-element h4 {
+  font-size: 20px;
+}
+
+.linkedin-logo:hover {
+  transition: all ease-in-out;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
