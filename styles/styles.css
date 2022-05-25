@@ -27,9 +27,6 @@ h3,
 h4 {
   font-family: var(--heading-font);
 }
-h3 {
-  font-size: 20px;
-}
 p {
   font-family: var(--main-text-font);
 }
@@ -101,10 +98,6 @@ footer {
   margin: 30px;
 }
 
-.linkedin-logo {
-  width: 60px;
-}
-
 .about-me-content {
   background-color: var(--secondary-colour);
   padding: 50px;
@@ -153,15 +146,16 @@ footer {
   margin-right: 250px;
   margin-bottom: 50px;
   margin-top: 40px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px var(--primary-colour);
 }
 
-.know-more-element h3 {
-  text-align: left;
-  font-size: 25px;
+.know-more-element p {
+  font-size: 30px;
 }
 
-.know-more-element h4 {
-  font-size: 20px;
+.linkedin-logo {
+  width: 80px;
 }
 
 .linkedin-logo:hover {
@@ -172,9 +166,15 @@ footer {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.color-element h1 {
+  font-size: 50px;
+}
+
 .project-img-weatherapp,
 .project-img-landingpage {
   width: 400px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
 }
 
 .weather-app-content,
@@ -182,13 +182,40 @@ footer {
   margin: 60px;
 }
 .project-description {
-  background-color: var(--primary-colour);
+  background-color: var(--secondary-colour);
   padding: 30px;
-  border-radius: 6px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
 }
+.project-description h2 {
+  font-size: 40px;
+}
+
 .project-skills {
   background-color: var(--secondary-colour);
   padding: 20px;
   margin: 10px;
-  border-radius: 6px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
+}
+
+.skills-text {
+  font: 30px;
+}
+.contact-element {
+  background-color: var(--primary-colour);
+  padding: 50px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px var(--secondary-colour);
+}
+.email-logo {
+  width: 80px;
+}
+
+.email-logo:hover {
+  transition: all ease-in-out;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
