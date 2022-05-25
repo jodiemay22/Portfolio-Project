@@ -202,11 +202,19 @@ footer {
 .skills-text {
   font: 30px;
 }
+
+.contact-title {
+  font-size: 60px;
+}
 .contact-element {
-  background-color: var(--primary-colour);
+  background-color: var(--secondary-colour);
   padding: 50px;
   border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--secondary-colour);
+  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
+}
+
+.contact-sub-titles {
+  margin-top: 10px;
 }
 .email-logo {
   width: 80px;
