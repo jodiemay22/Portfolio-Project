@@ -42,12 +42,6 @@ p {
   background-color: var(--primary-colour);
   height: 300px;
 }
-.skills-element {
-  background-color: var(--primary-colour);
-}
-.skills-logo {
-  width: 35px;
-}
 
 .my-work-element h4 {
   text-decoration: underline;
