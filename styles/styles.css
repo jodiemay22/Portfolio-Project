@@ -45,6 +45,39 @@ footer {
   border-radius: 7px;
 }
 
+.title-content {
+  background-color: var(--secondary-colour);
+  padding: 50px;
+  margin: 30px;
+  border-radius: 7px;
+}
+
+.title-content h1 {
+  font-size: 60px;
+  margin: auto;
+}
+
+.profile-picture {
+  width: 305px;
+  max-width: 100%;
+  border-radius: 7px;
+}
+
+.introduction-text {
+  background-color: var(--secondary-colour);
+  border-radius: 7px;
+  margin: 30px;
+  padding: 50px;
+}
+.introduction-text p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.shecodes-logo {
+  width: 100px;
+}
+
 .linkedin-logo {
   width: 60px;
 }
