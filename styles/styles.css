@@ -53,7 +53,7 @@ footer {
 }
 
 .title-content h1 {
-  font-size: 60px;
+  font-size: 80px;
   margin: auto;
 }
 
@@ -76,6 +76,24 @@ footer {
 
 .shecodes-logo {
   width: 100px;
+}
+
+.navigation-title {
+  background-color: var(--secondary-colour);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+.navigation-title h2 {
+  font-size: 50px;
+}
+
+.navigation-grid {
+  margin: 30px;
 }
 
 .linkedin-logo {
