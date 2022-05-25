@@ -34,36 +34,15 @@ p {
   font-family: var(--main-text-font);
 }
 
-.homepage-hero img,
-.summary-container {
-  width: 300px;
-}
-.summary-container {
-  background-color: var(--primary-colour);
-  height: 300px;
-}
-
-.my-work-element h4 {
-  text-decoration: underline;
-}
-.my-work-element button {
-  background-color: var(--tertiary-colour);
-  border-color: #c8d9eb;
-  border-width: 3px;
-}
-
-.project-img {
-  width: 300px;
-  padding: 0;
-  box-shadow: -16px -12px 0px 0px #f0d9da;
-}
 footer {
   background-color: var(--primary-colour);
 }
 
-.qualifications,
-.experience {
-  background-color: var(--secondary-colour);
+.color-element {
+  background-color: var(--primary-colour);
+  padding: 25px;
+  margin: 50px;
+  border-radius: 7px;
 }
 
 .linkedin-logo {
