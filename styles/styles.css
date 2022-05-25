@@ -1,5 +1,6 @@
 :root {
-  --branding-font: "Rubik", sans-serif;
+  --heading-font: "Grape Nuts", cursive;
+  --main-text-font: "Dosis", sans-serif;
   --primary-colour: #f5e4da;
   --secondary-colour: #f3d6d6;
   --tertiary-colour: #f2d7d3;
@@ -18,19 +19,19 @@ body {
 }
 
 h1 {
-  font-family: var(--branding-font);
+  font-family: var(--heading-font);
   font-size: 30px;
 }
 h2,
 h3,
-p {
-  font-family: var(--branding-font);
+h4 {
+  font-family: var(--heading-font);
 }
 h3 {
   font-size: 20px;
 }
-h4 {
-  font-family: var(--branding-font);
+p {
+  font-family: var(--main-text-font);
 }
 
 .homepage-hero img,
