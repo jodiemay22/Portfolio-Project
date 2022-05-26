@@ -1,9 +1,9 @@
 :root {
-  --heading-font: "Grape Nuts", cursive;
-  --main-text-font: "Dosis", sans-serif;
-  --primary-colour: #f5e4da;
-  --secondary-colour: #f3d6d6;
-  --tertiary-colour: #efddd2;
+  --heading-font: "Montserrat", sans-serif;
+  --main-text-font: "Poppins", sans-serif;
+  --primary-colour: #fff3f4;
+  --secondary-colour: #fff8f9;
+  --tertiary-colour: #ffe5e8;
 }
 @media (max-width: 600px) {
   .summary-container h4 {
@@ -96,6 +96,11 @@ footer {
 
 .navigation-grid {
   margin: 30px;
+}
+
+.navigation-grid h2 {
+  font-family: var(--main-text-font);
+  font-size: 30px;
 }
 
 .about-me-content {
