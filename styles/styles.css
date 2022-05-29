@@ -1,16 +1,16 @@
 :root {
-  --heading-font: "Montserrat", sans-serif;
-  --main-text-font: "Poppins", sans-serif;
+  --heading-font: "Inspiration", cursive;
+  --main-text-font: "Roboto", sans-serif;
   --primary-colour: #fff3f4;
   --secondary-colour: #fff8f9;
   --tertiary-colour: #ffe5e8;
 }
 @media (max-width: 600px) {
-  .summary-container h4 {
-    font-size: 17px;
+  .brand-logo {
+    font-size: 40px;
   }
-  .summary-container p {
-    font-size: 14px;
+  .navbar-collapse {
+    background-color: var(--secondary-colour);
   }
 }
 body {
@@ -35,72 +35,29 @@ footer {
   background-color: var(--primary-colour);
 }
 
-.color-element {
-  background-color: var(--primary-colour);
-  padding: 25px;
-  margin: 50px;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--secondary-colour);
-}
-
-.title-content {
+.navbar {
   background-color: var(--secondary-colour);
-  padding: 50px;
-  margin: 30px;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
+  height: 109px;
 }
 
-.title-content h1 {
-  font-size: 80px;
-  margin: auto;
+.navbar-nav {
+  align-items: center;
 }
 
-.profile-picture {
-  width: 305px;
-  max-width: 100%;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
+.nav-item {
+  padding: 0 15px;
 }
 
-.introduction-text {
-  background-color: var(--secondary-colour);
-  border-radius: 7px;
-  margin: 30px;
-  padding: 50px;
-  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
-}
-.introduction-text p {
-  font-size: 20px;
-  line-height: 35px;
+.nav-link {
+  color: black;
 }
 
-.shecodes-logo {
-  width: 100px;
-}
-
-.navigation-title {
-  background-color: var(--secondary-colour);
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--primary-colour);
-}
-
-.navigation-title h2 {
-  font-size: 50px;
-}
-
-.navigation-grid {
-  margin: 30px;
-}
-
-.navigation-grid h2 {
-  font-family: var(--main-text-font);
-  font-size: 30px;
+.navbar-brand {
+  font-family: var(--heading-font);
+  font-size: 60px;
+  padding: 0 15px;
+  color: black;
+  margin: 0;
 }
 
 .about-me-content {
