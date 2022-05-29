@@ -19,6 +19,13 @@ footer {
   background-color: var(--primary-colour);
 }
 
+p {
+  font-family: var(--main-text-font);
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
 .navbar {
   background-color: var(--secondary-colour);
   height: 109px;
@@ -64,6 +71,18 @@ footer {
   font-family: var(--main-text-font);
   font-size: 27px;
   font-weight: bold;
+}
+
+.summary-box {
+  background-color: var(--primary-colour);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.shecodes-logo {
+  width: 100px;
 }
 
 .about-me-content {
