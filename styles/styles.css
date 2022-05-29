@@ -218,21 +218,6 @@ p {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.requestcv-element {
-  background-color: var(--secondary-colour);
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--primary-colour);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 40px;
-}
-
-.requestcv-text {
-  text-decoration: underline;
-  margin-bottom: 20px;
-}
 @media (max-width: 576px) {
   .navbar-collapse {
     background-color: var(--secondary-colour);
@@ -252,6 +237,9 @@ p {
   }
   .about-me-content {
     margin: 0 auto;
+  }
+  .about-me-content h1 {
+    font-size: 70px;
   }
   .project-image-element {
     margin-bottom: 20px;
