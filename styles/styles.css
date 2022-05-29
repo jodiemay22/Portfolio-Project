@@ -93,6 +93,13 @@ p {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.email-logo:hover {
+  transition: all ease-in-out;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 .about-me-content {
   background-color: var(--secondary-colour);
   padding: 50px;
@@ -206,16 +213,9 @@ p {
 .contact-sub-titles {
   margin-top: 10px;
 }
-.email-logo {
+.email-logo,
+.linkedin-logo {
   width: 80px;
-}
-
-.email-logo:hover {
-  transition: all ease-in-out;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 @media (max-width: 576px) {
