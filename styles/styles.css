@@ -150,7 +150,6 @@ p {
 }
 
 .title-colour-element h1 {
-  font-size: 50px;
   font-family: var(--heading-font);
   font-size: 90px;
 }
@@ -200,6 +199,10 @@ p {
   width: 50px;
 }
 
+.contact-options-element {
+  margin: 60px;
+}
+
 .contact-title {
   font-size: 60px;
 }
@@ -212,6 +215,12 @@ p {
 
 .contact-sub-titles {
   margin-top: 10px;
+}
+
+.contact-sub-titles h2 {
+  font-family: var(--main-text-font);
+  font-weight: bold;
+  font-size: 20px;
 }
 .email-logo,
 .linkedin-logo {
