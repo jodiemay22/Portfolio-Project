@@ -86,6 +86,13 @@ p {
   width: 50px;
 }
 
+.linkedin-logo:hover {
+  transition: all ease-in-out;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 .about-me-content {
   background-color: var(--secondary-colour);
   padding: 50px;
@@ -131,21 +138,14 @@ p {
   width: 50px;
   padding: 4px;
 }
-
-.linkedin-logo {
-  width: 80px;
+.title-colour-element {
+  background-color: var(--primary-colour);
 }
 
-.linkedin-logo:hover {
-  transition: all ease-in-out;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.color-element h1 {
+.title-colour-element h1 {
   font-size: 50px;
+  font-family: var(--heading-font);
+  font-size: 90px;
 }
 
 .project-img-weatherapp,
