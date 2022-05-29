@@ -266,4 +266,7 @@ p {
   .skills-logo {
     width: 30px;
   }
+  .contact-element {
+    margin-bottom: 15px;
+  }
 }
