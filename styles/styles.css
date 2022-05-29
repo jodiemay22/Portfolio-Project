@@ -5,11 +5,7 @@
   --secondary-colour: #fff8f9;
   --tertiary-colour: #ffe5e8;
 }
-@media (max-width: 600px) {
-  .navbar-collapse {
-    background-color: var(--secondary-colour);
-  }
-}
+
 body {
   background-color: white;
   text-align: center;
@@ -22,7 +18,6 @@ footer {
 p {
   font-family: var(--main-text-font);
   font-weight: bold;
-  line-height: 1.5;
   font-size: 20px;
 }
 
@@ -83,6 +78,10 @@ p {
 
 .shecodes-logo {
   width: 100px;
+}
+
+.socials-links img {
+  width: 50px;
 }
 
 .about-me-content {
@@ -229,4 +228,21 @@ p {
 .requestcv-text {
   text-decoration: underline;
   margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .navbar-collapse {
+    background-color: var(--secondary-colour);
+  }
+  .homepage-hero h1 {
+    font-size: 64px;
+  }
+  .homepage-hero h2 {
+    font-size: 20px;
+  }
+  .homepage-hero h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
