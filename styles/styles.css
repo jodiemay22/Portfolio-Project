@@ -6,9 +6,6 @@
   --tertiary-colour: #ffe5e8;
 }
 @media (max-width: 600px) {
-  .brand-logo {
-    font-size: 40px;
-  }
   .navbar-collapse {
     background-color: var(--secondary-colour);
   }
@@ -16,19 +13,6 @@
 body {
   background-color: white;
   text-align: center;
-}
-
-h1 {
-  font-family: var(--heading-font);
-  font-size: 30px;
-}
-h2,
-h3,
-h4 {
-  font-family: var(--heading-font);
-}
-p {
-  font-family: var(--main-text-font);
 }
 
 footer {
@@ -54,10 +38,32 @@ footer {
 
 .navbar-brand {
   font-family: var(--heading-font);
-  font-size: 60px;
+  font-size: 40px;
   padding: 0 15px;
   color: black;
   margin: 0;
+}
+
+.homepage-hero {
+  background-color: var(--primary-colour);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.homepage-hero h1 {
+  font-family: var(--heading-font);
+  font-size: 150px;
+}
+.homepage-hero h2 {
+  font-family: var(--main-text-font);
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.homepage-hero h3 {
+  font-family: var(--main-text-font);
+  font-size: 27px;
+  font-weight: bold;
 }
 
 .about-me-content {
