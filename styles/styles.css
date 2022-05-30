@@ -174,7 +174,17 @@ p {
 .project-description h2 {
   font-size: 60px;
   font-family: var(--heading-font);
+  color: black;
 }
+.project-description a {
+  text-decoration: none;
+}
+
+.project-description a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .project-description p {
   font-family: var(--main-text-font);
   font-size: 18px;
