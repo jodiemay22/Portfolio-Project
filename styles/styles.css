@@ -180,11 +180,6 @@ p {
   text-decoration: none;
 }
 
-.project-description a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 .project-description p {
   font-family: var(--main-text-font);
   font-size: 18px;
