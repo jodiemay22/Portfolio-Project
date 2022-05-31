@@ -137,7 +137,10 @@ p {
 .js-logo,
 .api-logo,
 .bootstrap-logo,
-.github-logo {
+.github-logo,
+.seo-logo,
+.flexbox-logo,
+.responsive-logo {
   width: 50px;
   padding: 4px;
 }
