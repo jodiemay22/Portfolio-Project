@@ -98,11 +98,9 @@ p {
 
 .about-me-content {
   background-color: var(--secondary-colour);
-  padding: 50px;
+  padding: 40px;
   margin-top: 140px;
   margin-bottom: 140px;
-  margin-left: 30px;
-  margin-right: 150px;
   border-radius: 7px;
   box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
 }
@@ -243,6 +241,12 @@ p {
   width: 80px;
 }
 
+@media (max-width: 310px) {
+  .about-profile-picture {
+    width: 200px;
+  }
+}
+
 @media (max-width: 576px) {
   .navbar-collapse {
     background-color: var(--secondary-colour);
@@ -291,5 +295,11 @@ p {
   .view-website-button,
   .view-code-button {
     font-size: 10px;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .about-me-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
