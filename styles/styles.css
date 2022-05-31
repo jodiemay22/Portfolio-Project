@@ -274,4 +274,8 @@ p {
   .contact-element {
     margin-bottom: 15px;
   }
+  .view-website-button,
+  .view-code-button {
+    font-size: 10px;
+  }
 }
