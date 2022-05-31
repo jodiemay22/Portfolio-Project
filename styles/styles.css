@@ -99,8 +99,8 @@ p {
 .about-me-content {
   background-color: var(--secondary-colour);
   padding: 50px;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 140px;
+  margin-bottom: 140px;
   margin-left: 30px;
   margin-right: 150px;
   border-radius: 7px;
@@ -126,7 +126,7 @@ p {
 }
 
 .about-skills-content {
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: var(--secondary-colour);
   padding: 30px;
   border-radius: 7px;
@@ -136,16 +136,17 @@ p {
   font-family: var(--heading-font);
   font-size: 42px;
 }
-
-.html-logo,
-.css-logo,
-.js-logo,
-.api-logo,
-.bootstrap-logo,
-.github-logo,
-.seo-logo,
-.flexbox-logo,
-.responsive-logo {
+.currently-learning-content {
+  background-color: var(--secondary-colour);
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
+}
+.currently-learning-content h2 {
+  font-family: var(--heading-font);
+  font-size: 32px;
+}
+.skillset-logos {
   width: 50px;
   padding: 4px;
 }
@@ -264,6 +265,9 @@ p {
   }
   .about-me-content h1 {
     font-size: 70px;
+  }
+  .skillset-logos {
+    width: 40px;
   }
   .project-image-element {
     margin-bottom: 20px;
