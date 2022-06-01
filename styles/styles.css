@@ -296,10 +296,21 @@ p {
   .view-code-button {
     font-size: 10px;
   }
+  .weather-app-content,
+  .landing-page-content {
+    margin: 0 auto;
+  }
 }
 @media (min-width: 576px) and (max-width: 992px) {
   .about-me-content {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .title-colour-element {
+    margin-bottom: 20px;
+  }
+  .weather-app-content,
+  .landing-page-content {
+    margin: 0 auto;
   }
 }
