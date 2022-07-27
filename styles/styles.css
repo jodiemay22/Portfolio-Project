@@ -1,9 +1,8 @@
 :root {
   --heading-font: "Inspiration", cursive;
   --main-text-font: "Roboto", sans-serif;
-  --primary-colour: #fff3f4;
-  --secondary-colour: #fff8f9;
-  --tertiary-colour: #ffe5e8;
+  --primary-colour: #a2b4ac;
+  --secondary-colour: #d59169;
 }
 
 body {
@@ -22,7 +21,7 @@ p {
 }
 
 .navbar {
-  background-color: var(--secondary-colour);
+  background-color: var(--primary-colour);
   height: 109px;
 }
 
@@ -47,7 +46,6 @@ p {
 }
 
 .homepage-hero {
-  background-color: var(--primary-colour);
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0, 0;
@@ -75,7 +73,7 @@ p {
 }
 
 .summary-box {
-  background-color: var(--primary-colour);
+  background-color: var(--secondary-colour);
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 100px;
@@ -159,9 +157,6 @@ p {
   font-size: 14px;
   font-weight: bold;
 }
-.title-colour-element {
-  background-color: var(--primary-colour);
-}
 
 .title-colour-element h1 {
   font-family: var(--heading-font);
@@ -219,17 +214,14 @@ p {
 }
 
 .contact-options-element {
-  margin: 60px;
+  margin-top: 60px;
 }
 
 .contact-title {
   font-size: 60px;
 }
 .contact-element {
-  background-color: var(--secondary-colour);
-  padding: 50px;
-  border-radius: 7px;
-  box-shadow: 0px 0px 5px 2px var(--tertiary-colour);
+  margin-bottom: 80px;
 }
 
 .contact-sub-titles {
